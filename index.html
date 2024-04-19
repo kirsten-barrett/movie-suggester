@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- FAVICON <link rel="icon" type="image/svg+xml" href="/vite.svg" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="./src/chooseGenre.jsx"></script>
+    <title>Movie Suggester</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Movie Suggester</h1>
+      <h2 class="secondaryTitle"></h2>
+    </header>
+    <!--<form id="genreOptions">
+      <input type="checkbox" id="genreCheckbox" />
+      <label id="checkboxLabel"></label>
+    </form>-->
+    <div>
+      <h2 id="topicQuestion">Let's get started...</h2>
+      <h2 id="topicQuestion">What genre(s) are you interested in?</h2>
+      <!--<div id="genreDiv"></div>-->
+      <form id="genreForm">
+        <label>Choose a genre:</label>
+        <select name="genres" id="genres">
+        </select>
+      </form>
+    </div>
+    <div id="root">
+
+    </div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
