@@ -1,8 +1,8 @@
-# React + Vite
+Movie Suggester
+==============
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Introduction
+------------
+This is a desktop app created with Vite & React meant to act as a movie suggester based on desired genre(s), release date, and average rating. It will then suggest one movie at a time with the user able to choose one and get more information or generate another movie based on their given parameters. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It uses data from TMDB API.
